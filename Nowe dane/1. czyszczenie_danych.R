@@ -8,8 +8,8 @@ library(StatsBombR)
 
 # dane do logowania
 
-USER = 'pilka@amu.edu.pl'
-PWD = 'R0vDD5ks'
+USER = 'user_mail'
+PWD = 'password'
 
 # get data competitions
 
