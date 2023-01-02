@@ -1,12 +1,12 @@
 
 library(tidyverse)
 
-setwd('C:/Users/Agnieszka/Desktop/Studia/Przedmioty/Seminarium magisterskie/Kody/Excel Dane')
+setwd('sciezka')
 
 
 ### Wczytanie danych ###
 
-path_Excel = '../Dane_xlsx'
+path_Excel = '../katalog_z_xlsx'
 
 for (i in str_subset(list.files(path_Excel), 'Players')){
   assign(str_c('ESA_Players_', str_sub(i, str_locate(i, 'Players_ ')[,2] + 1, str_locate(i, ' 2021')[,1] - 1) %>%
